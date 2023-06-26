@@ -43,7 +43,6 @@ function App_Main() {
   };
 
   const handleButtonClickJogo = (url) => {
-    console.log(url);
     window.open(url, '_blank');
   };
 
@@ -74,7 +73,9 @@ function App_Main() {
             <span>{game.short_description}</span>
             <div className='div_card_btns'>
               <button className='btn_form' id='btn_saiba_mais'>Saiba Mais</button>
-              <button className='btn_form' id='btn_jogo' onClick={handleButtonClickJogo(game.game_url)}>Conheça o jogo</button>
+              <button className='btn_form' id='btn_jogo' onClick={handleButtonClickJogo.bind(null, game.game_url)}>Conheça o jogo</button>
+
+
             </div>
           </div>
         ))}
