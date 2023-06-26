@@ -1,0 +1,42 @@
+footer {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-list-footer {
+  display: flex;
+}
+
+.menu-footer .menu-list-footer .menu-group-footer {
+  margin: 10px;
+}
+
+.menu-footer .menu-list-footer .menu-group-footer .menu-link-footer {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+footer h3{
+  margin: 18px auto 20px auto;
+}
+
+.linha_vertical {
+  width: 620px;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.icons_redes{
+  align-items: center;
+}
+
+.icons_redes img{
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  cursor: pointer;
+}

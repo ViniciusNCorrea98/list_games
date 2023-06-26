@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  background-image: url("../assets/pexels-yan-krukau-9072202.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	background-color: whitesmoke;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.menu_games{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 320px;
+  height: 460px;
+  margin: 10px;
+  border: 2px solid rgb(86, 86, 86);
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.card img{
+  width: 260px;
+  height: 200px;
+}
+
+.div_card_btns{
+  display: flex;
+  margin-top: 18px;
+  justify-items: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.btn_form{
+  all: unset;
+  display: flex;
+  padding: 5px;
+  background-color: transparent;
+  width: 125px;
+  border-radius: 88px;
+  cursor: pointer;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+#btn_saiba_mais:hover{
+  background-color: black;
+  font-weight: bolder;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+#btn_jogo:hover{
+  background-color: black;
+  font-weight: bolder;
+  color: rgb(226, 43, 73);
+  border: 1px solid rgb(226, 43, 73);
+}
+
+.paginacao{
+  margin-top: 25px;
+}
+
+.paginacao button {
+    color: purple;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+h1{
+  margin: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.icone {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: url('../assets/icons8-whatsapp-48\ \(1\).png');
+  margin: 10px;
+  cursor: pointer;
+}
